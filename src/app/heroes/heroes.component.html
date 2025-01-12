@@ -42,9 +42,7 @@
 <h2>My Heroes</h2>
 
 <ul class="heroes">
-    <li *ngFor="let hero of heroes" [class.selected]="hero === selectedHero">
-        <a routerLink="/detail/{{hero.id}}">
-            <span class="badge">{{hero.id}}</span> {{hero.name}}
-        </a>
+    <li *ngFor="let hero of heroes" [routerLink]="['/detail', hero.id]" [class.selected]="hero === selectedHero">
+        <span class="badge">{{ hero.id }}</span> {{ hero.name }}
     </li>
 </ul>
