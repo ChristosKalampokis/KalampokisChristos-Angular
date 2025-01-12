@@ -1,8 +1,4 @@
-import {
-  /* . . . */
-  NgFor
-  /* . . . */
-} from '@angular/common';
+import { NgFor } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { Hero } from '../hero';

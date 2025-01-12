@@ -21,3 +21,4 @@ describe('HeroDetailComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+ 
